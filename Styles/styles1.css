@@ -39,6 +39,7 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 100px;
     
 }
 /*dodao font size font i weight*/
@@ -71,7 +72,7 @@ a {
 }
 /*dodao padding*/
 .nav-left{
-   font-size: 25px;
+   font-size: 30px;
    padding: 1.5rem;
 }
 
@@ -86,14 +87,15 @@ a {
     font-family: muli, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 0.7em;
+    font-size: 0.9em;
+    
 }
 .nav-ul2-li a {
     color: #3d4151;
     font-family: muli, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 0.7em;
+    font-size: 0.9em;
 
 
 
@@ -113,9 +115,11 @@ a {
     font-style:normal ;
 }
 .left-head p {
+    
     font-family: muli, sans-serif;
     font-weight: 500;
     font-style:normal ;
+    
 
 }
 
@@ -124,13 +128,13 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-left: 150px;
     padding-top: 70px;
-    padding-left: 280px;
     padding-bottom: 50px;
     
 }
 .right-head img {
-    width: 700px;    
+    width: 800px;    
 }
 .head-viewm{
     
@@ -142,11 +146,132 @@ a {
     height: 45px;
     width: 140px;
     background: linear-gradient(45deg, #4361EE,#93a1dd);
+    
 
 }
 .head-viewm a {  
-    font-size: 0.7em;
+    font-size: 0.9em;
     color: white;
 }
+.head-viewm:hover{
+    transform: scale(1.1, 1.2);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(243, 240, 240);
+}
+.section-top{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+
+}
+.section-top h4 {
+    color: #4361EE;
+    font-weight: bold;
+}
+.section-top p {
+    font-family: muli, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+.section-top h4, h3, p{
+    margin: 0.5em;
+
+}
+.section-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.section-grid img {
+    width: 100px;
+    
+}
+.section-grid > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:420px;
+    width:350px ;
+    background-color: white;
+
+}
+.section-grid > div:hover{
+    background-color: #4361EE;
+    background: linear-gradient(45deg, #4361EE,#93a1dd);
+    color: white;
+    transform: scale(1.1, 1.1);
+    
+}
+
+
+.readmore{
+    background-color: #4361EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 45px;
+    width: 140px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(192, 176, 141);
+} 
+.section-middle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    
+
+
+    
+
+}
+.middle-pic{
+    padding-top: 100px;
+}
+.sec-middle-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.sec-middle-right p{
+    padding-top: 50px;
+}
+.section-middle img {
+    width: 500px;
+}
+
+
+
+.middle-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.middle-button img {
+    height: 70px;
+    width: 70px;
+}
+
+
 
 
