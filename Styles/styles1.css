@@ -325,6 +325,121 @@ section{
     color: #4361EE;
 }
 
+.section-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.bottom-right{/*marginu zamijenii sa space between*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-left: 50px;
+}
+
+.right-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+
+}
+.right-grid > div{
+    height: 380px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-grid > div h4 {
+    margin: 0;
+}
+.readmore-bott{
+    margin-top: 50px;
+   
+   
+}
+
+.bottom-left li {
+    list-style: none;
+    padding: 1rem;
+    
+    
+    
+}
+
+.bottom-left ul {/*prilijepiti ga uz lijevu ivicu*/
+    margin-top: 90px;
+    border: 1px solid black;
+    
+    
+    
+}
+.bottom-left a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: rgb(110, 108, 108);
+    
+}
+
+
+.bottom-left h2 {
+    margin: 0;
+     
+}
+.bottom-left h4 {
+    margin-top: 15px;
+}
+.bottom-left a:hover{
+    color: #4361EE;
+}
+
+.expand{
+    position:relative;
+    text-decoration:none;
+    display:inline-block;
+  }
+  .expand:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px #4361EE;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    transform-origin:100% 50%
+  }
+  .expand:hover:after { 
+    transform: scaleX(1);
+    transform-origin:0 50%;
+  }
+
+  .right-grid img {
+      height: 140px;
+      width: 160px;
+  }
+
+/*
+.under-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.under-grid div {
+    background-color: #4361EE;
+}
+.under-grid:first-child{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    opacity: 0.5;
+}*/
+
 
 
 
