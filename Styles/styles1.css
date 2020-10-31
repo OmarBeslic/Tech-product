@@ -1,0 +1,152 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+title{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    display: block;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(78, 77, 77);
+}
+header{
+    background-color: #f8f8f8;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+    
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+    margin-bottom: 0.8rem;
+}
+
+.navbar{
+    margin: 0 auto;
+    margin-top: 6px;
+    margin-bottom: 6px;  
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*dodao font size font i weight*/
+.all-nav li {
+    list-style: none;
+    display: inline-block;    
+    padding: 1.1rem;
+    
+
+}
+.all-nav{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    padding: 10px; 
+    padding-top: 50px;
+    
+}
+.icon > img {
+    width: 30px;
+    height: 30px;
+}
+.icon{
+    padding-left: 1.5em;
+   
+}
+a {
+    text-decoration: none;    
+}
+/*dodao padding*/
+.nav-left{
+   font-size: 25px;
+   padding: 1.5rem;
+}
+
+
+.blue{
+   color:#4361EE ; 
+   font-weight: bold;
+}
+
+.nav-ul1-li a {
+    color: #3d4151;
+    font-family: muli, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.7em;
+}
+.nav-ul2-li a {
+    color: #3d4151;
+    font-family: muli, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.7em;
+
+
+
+}
+/*ubacio muli font*/
+.left-head h3 {
+    margin: 0;
+    font-family: muli, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+        
+}
+.left-head h2{/*isto ubacio font*/
+    margin-bottom: 0.8rem;
+    font-family: muli, sans-serif;
+    font-weight: 800;
+    font-style:normal ;
+}
+.left-head p {
+    font-family: muli, sans-serif;
+    font-weight: 500;
+    font-style:normal ;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 280px;
+    padding-bottom: 50px;
+    
+}
+.right-head img {
+    width: 700px;    
+}
+.head-viewm{
+    
+    background-color: #4361EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 45px;
+    width: 140px;
+    background: linear-gradient(45deg, #4361EE,#93a1dd);
+
+}
+.head-viewm a {  
+    font-size: 0.7em;
+    color: white;
+}
+
+
