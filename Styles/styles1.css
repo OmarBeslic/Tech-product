@@ -347,7 +347,7 @@ section{
 }
 .right-grid > div{
     height: 380px;
-    width: 350px;
+    width: 330px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -355,30 +355,40 @@ section{
     align-items: center;
 }
 
+.right-grid > div img {
+    margin-bottom: 30px;
+}
+
 .right-grid > div h4 {
     margin: 0;
 }
 .readmore-bott{
-    margin-top: 50px;
-   
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid rgb(207, 164, 126);
+    border-radius: 50px;
+    height: 40px;
+    width: 120px;
+}
+
+.readmore-bott:hover {
+    color: white;
+    background-color: #4361EE;
+    border: #fff;
 }
 
 .bottom-left li {
     list-style: none;
     padding: 1rem;
-    
-    
-    
 }
 
-.bottom-left ul {/*prilijepiti ga uz lijevu ivicu*/
+.bottom-left ul {
     margin-top: 90px;
-    border: 1px solid black;
-    
-    
-    
+    padding-left: 0;
 }
+
 .bottom-left a {
     text-decoration: none;
     font-size: 1.2rem;
@@ -386,7 +396,6 @@ section{
     color: rgb(110, 108, 108);
     
 }
-
 
 .bottom-left h2 {
     margin: 0;
@@ -422,8 +431,9 @@ section{
       width: 160px;
   }
 
-/*
 .under-grid{
+    height: 150px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -433,21 +443,19 @@ section{
 .under-grid div {
     background-color: #4361EE;
 }
-.under-grid:first-child{
-    height: 3px;
-    width: 3px;
-    border-radius: 50%;
+
+.circle {
+    height: 13px;
+    width: 13px;
+    border-radius: 70%;
     opacity: 0.5;
-}*/
+    background-color: #4361EE;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.big-circle {
+    width: 55px;
+    height: 13px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
