@@ -71,7 +71,7 @@ a {
 }
 
 .blue{
-   color:#4361EE ; 
+    color:#4361EE ; 
    font-weight: bold;
 }
 
@@ -391,7 +391,7 @@ footer {
     align-items: center;
 }
 
-.foot-bottom p a {
+.foot-bottom  a {
     color: #4361EE;
     font-weight: bolder;
 }
@@ -663,6 +663,7 @@ footer {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        padding-bottom: 3em;
     }
 
     .left-head {
@@ -742,11 +743,8 @@ footer {
     }
 
     .nav-middle {
-        width: 25em;
         margin: 1em;
-        margin-right: 0;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-evenly;
     }
 
     .nav-middle a {
